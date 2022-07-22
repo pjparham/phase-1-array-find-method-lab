@@ -26,3 +26,15 @@ function superbowlWin(collection){
 //     }
 //     (records).find(isW);
 // }
+
+
+// I redid this lab on Jul 22 with this solution and was able to pass all tests:
+// function superbowlWin(array) {
+//     const found = array.find(element => element.result === "W")
+//     if (found === undefined) {
+//         return undefined
+//     }
+//     else {
+//         return found.year
+//     }
+// }
